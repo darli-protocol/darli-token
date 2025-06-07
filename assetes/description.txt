@@ -1,1 +1,0 @@
-Darli is an opensource decentralized borrowing protocol that allows you to draw 0% interest loans against Solana used as collateral.
