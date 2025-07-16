@@ -1,0 +1,95 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient fill for coin -->
+    <radialGradient id="coinGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2b2"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </radialGradient>
+
+    <!-- Text path for ring text -->
+    <path id="circlePath" d="M150,150 m -115,0 a 115,115 0 1,1 230,0 a 115,115 0 1,1 -230,0"/>
+
+    <!-- Star shape symbol -->
+    <symbol id="star" viewBox="0 0 24 24">
+      <polygon points="12,2 14.7,8.5 21.8,9 16,13.9 17.5,21 12,17.2 6.5,21 8,13.9 2.2,9 9.3,8.5" fill="#B8860B"/>
+    </symbol>
+
+    <!-- Drop shadow for depth -->
+    <filter id="dropShadow" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#333" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Inner shadow simulation -->
+    <filter id="innerShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="0" dy="1" result="offset"/>
+      <feGaussianBlur in="offset" stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="arithmetic" k2="-1" k3="1" result="innerShadow"/>
+    </filter>
+  </defs>
+
+  <!-- Base USD Darli coin circle -->
+  <circle cx="150" cy="150" r="140"
+          fill="url(#coinGradient)"
+          stroke="#B8860B"
+          stroke-width="8"
+          filter="url(#dropShadow)" />
+
+  <!-- Decorative stroke circle with dash-dot pattern -->
+  <circle cx="150" cy="150" r="140"
+          fill="none"
+          stroke="#8B7500"
+          stroke-width="4"
+          stroke-dasharray="5,5,5,5"
+          stroke-linecap="round"
+          opacity="0.8" />
+
+  <!-- Inner circle with inner shadow -->
+  <circle cx="150" cy="150" r="100"
+          fill="url(#coinGradient)"
+          stroke="#B8860B"
+          stroke-width="5"
+          filter="url(#innerShadow)" />
+
+  <!-- 5 Stars around USDa -->
+  <g transform="translate(150,150)">
+    <g id="star-ring">
+      <use href="#star" x="-7.5" y="-93" width="20" height="20" transform="rotate(0)" filter="url(#dropShadow)" />
+      <use href="#star" x="-7.5" y="-93" width="20" height="20" transform="rotate(72)" filter="url(#dropShadow)" />
+      <use href="#star" x="-7.5" y="-93" width="20" height="20" transform="rotate(144)" filter="url(#dropShadow)" />
+      <use href="#star" x="-7.5" y="-93" width="20" height="20" transform="rotate(216)" filter="url(#dropShadow)" />
+      <use href="#star" x="-7.5" y="-93" width="20" height="20" transform="rotate(288)" filter="url(#dropShadow)" />
+    </g>
+  </g>
+
+  <!-- Token center "$" -->
+  <text x="150" y="135"
+        text-anchor="middle"
+        font-size="55"
+        font-family="Helvetica, Arial, sans-serif"
+        fill="#B8860B"
+        font-weight="normal"
+        filter="url(#dropShadow)">
+    $
+  </text>
+
+  <!-- Token center "USDa" -->
+  <text x="150" y="185"
+        text-anchor="middle"
+        font-size="50"
+        font-family="Helvetica, Arial, sans-serif"
+        fill="#B8860B"
+        font-weight="bold"
+        filter="url(#dropShadow)">
+    USDa
+  </text>
+
+  <!-- Ring text with subtle shadow -->
+  <text font-size="14"
+        font-family="Helvetica, Arial, sans-serif"
+        fill="#333"
+        filter="url(#dropShadow)">
+    <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
+      01001101 • 01000001 • IN GOD WE TRUST • 01001000 • 01000100 • USD DARLI • 01001001 • DARLI TOKENS • 
+    </textPath>
+  </text>
+</svg>
