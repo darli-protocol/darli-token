@@ -61,26 +61,15 @@
     </g>
   </g>
 
-  <!-- Token center "$" -->
-  <text x="150" y="135"
-        text-anchor="middle"
-        font-size="55"
-        font-family="Helvetica, Arial, sans-serif"
-        fill="#B8860B"
-        font-weight="normal"
-        filter="url(#dropShadow)">
-    $
-  </text>
-
   <!-- Token center "USDa" -->
-  <text x="150" y="185"
+  <text x="150" y="175"
         text-anchor="middle"
-        font-size="50"
+        font-size="80"
         font-family="Helvetica, Arial, sans-serif"
         fill="#B8860B"
         font-weight="bold"
         filter="url(#dropShadow)">
-    USDa
+    Da
   </text>
 
   <!-- Ring text with subtle shadow -->
