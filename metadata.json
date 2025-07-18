@@ -1,7 +1,7 @@
 {
-    "name": "Darli",
-    "symbol": "DARL",
-    "description": "Governance Token of Darli",
-    "image": "https://raw.githubusercontent.com/darli-protocol/darli-token/main/assets/darli.png",
+    "name": "USDarli",
+    "symbol": "USDa",
+    "description": "USD Stablecoin Token of Darli",
+    "image": "https://raw.githubusercontent.com/darli-protocol/darli-token/main/assets/darli-coin.png",
     "external_url": "https://darli.xyz"
 }
