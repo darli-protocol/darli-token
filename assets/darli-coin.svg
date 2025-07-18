@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="79.486435mm"
+   height="79.486443mm"
+   viewBox="0 0 79.486435 79.486443"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <circle
+     style="fill:#ff5400;stroke:#f4f4f4;stroke-width:0;stroke-dasharray:none;stroke-opacity:0.994366"
+     id="path1"
+     cx="39.743217"
+     cy="39.743225"
+     r="39.743217" />
+  <g
+     id="layer1"
+     transform="translate(-62.41874,-148.19982)">
+    <g
+       id="g3">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:71.4286px;line-height:1;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke-width:2.43889"
+         x="75.637184"
+         y="213.37112"
+         id="text1-2-8-7"><tspan
+           id="tspan1-1-8-6"
+           x="75.637184"
+           y="213.37112"
+           style="fill:#ffffff;stroke-width:2.43889">D</tspan></text>
+      <g
+         id="g4-2-1"
+         transform="matrix(1.5324732,11.111336,-24.955591,6.733526,3536.588,-1903.8855)"
+         style="fill:#ffffff">
+        <rect
+           style="fill:#ffffff;stroke:#f4f4f4;stroke-width:0;stroke-dasharray:none;stroke-opacity:0.994366"
+           id="rect4-4-4"
+           width="0.71748209"
+           height="1.2205541"
+           x="101"
+           y="143.8" />
+        <rect
+           style="fill:#ffffff;stroke:#f4f4f4;stroke-width:0;stroke-dasharray:none;stroke-opacity:0.994366"
+           id="rect4-9-5-2"
+           width="0.71748209"
+           height="1.2205541"
+           x="100"
+           y="143.8" />
+      </g>
+    </g>
+  </g>
+</svg>
